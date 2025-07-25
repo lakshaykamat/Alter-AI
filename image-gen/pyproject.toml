@@ -1,0 +1,17 @@
+[project]
+name = "image-gen"
+version = "0.1.0"
+description = "Image generation module using diffusers and HuggingFace tools."
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "diffusers[torch]",
+    "huggingface_hub",
+    "transformers",
+    "accelerate",
+    "sentencepiece",
+    "protobuf",
+    "torch",
+    "numpy",
+    "packaging",
+    "typing_extensions",
+] 

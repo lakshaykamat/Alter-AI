@@ -11,3 +11,13 @@ dependencies = [
     "onnxruntime<1.20", # avoids 3.11+ builds
     "insightface>=0.7.3",
 ]
+
+[project.optional-dependencies]
+image-gen = [
+    "diffusers[torch]",
+    "huggingface_hub",
+    "transformers",
+    "accelerate",
+    "sentencepiece",
+    "protobuf"
+] 
